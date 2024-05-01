@@ -7,7 +7,7 @@ environment:
   sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
-  process: ^4.2.3
+  process: ^5.0.2
   tool_base: ^2.0.0
   test: ^1.17.2
 
@@ -17,7 +17,7 @@ dev_dependencies:
 
 dependency_overrides:
   tool_base:
-    path: ../tool_base
+   git: https://github.com/claudius-kienle/tool_base.git
   tool_base_test:
-#    git: https://github.com/mmcc007/tool_base_test.git
-    path: ../tool_base_test
+   git: https://github.com/claudius-kienle/tool_base_test.git
+    # path: ../tool_base_test
